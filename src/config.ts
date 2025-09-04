@@ -37,9 +37,9 @@ export const siteConfig: SiteConfig = {
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		// }
 		{
-			src: '/favicon/6422275.png',
-			sizes: '32x32'
-		}
+			src: "/favicon/6422275.png",
+			sizes: "32x32",
+		},
 	],
 };
 

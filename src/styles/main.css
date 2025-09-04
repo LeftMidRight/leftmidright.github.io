@@ -141,15 +141,15 @@
 }
 
 /* 添加全局字体大小设置 */
-html {
-    font-size: 18px; /* 增加基础字体大小，默认是16px */
-}
+/* html { */
+    /* font-size: 18px; 增加基础字体大小，默认是16px */
+/* } */
 
 /* 或者针对特定内容区域 */
-.custom-md {
-    font-size: 1.125rem; /* 相对于基础字体大小 */
-    line-height: 1.7;   /* 增加行高改善可读性 */
-}
+/* .custom-md { */
+    /* font-size: 1.125rem; 相对于基础字体大小 */
+    /* line-height: 1.7;   增加行高改善可读性 */
+/* } */
 
 @font-face {
     font-family: "LXGWWenKai";
