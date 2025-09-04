@@ -147,7 +147,7 @@ html {
 
 /* 或者针对特定内容区域 */
 .custom-md {
-    font-size: 1.1rem; /* 相对于基础字体大小 */
+    font-size: 1.125rem; /* 相对于基础字体大小 */
     line-height: 1.7;   /* 增加行高改善可读性 */
 }
 
