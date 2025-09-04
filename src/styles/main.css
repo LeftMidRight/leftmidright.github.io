@@ -140,6 +140,22 @@
     height: var(--collapsedHeight);
 }
 
+/* 添加全局字体大小设置 */
+html {
+    font-size: 18px; /* 增加基础字体大小，默认是16px */
+}
+
+/* 或者针对特定内容区域 */
+.custom-md {
+    font-size: 1.1rem; /* 相对于基础字体大小 */
+    line-height: 1.7;   /* 增加行高改善可读性 */
+}
+
+@font-face {
+    font-family: "LXGWWenKai";
+    src: url('/fonts/LXGWWenKai-Light.ttf') format('truetype');
+}
+
 .custom-md spoiler {
   @apply bg-[var(--codeblock-bg)] hover:bg-transparent px-1 py-0.5 overflow-hidden rounded-md transition-all duration-150;
 
@@ -150,3 +166,4 @@
     }
   }
 }
+
