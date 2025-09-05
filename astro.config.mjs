@@ -49,7 +49,7 @@ export default defineConfig({
 		}),
 		icon({
 			include: {
-				//"preprocess: vitePreprocess(),": ["*"],
+				"preprocess: vitePreprocess(),": ["*"],
 				"material-symbols": ["*"],
 				"fa6-brands": ["*"],
 				"fa6-regular": ["*"],
