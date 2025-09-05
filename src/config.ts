@@ -8,7 +8,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Dpeng's Blog",
+	title: "dpeng's Blog",
 	subtitle: "",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
@@ -37,7 +37,7 @@ export const siteConfig: SiteConfig = {
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		// }
 		{
-			src: "/favicon/6422275.png",
+			src: "/favicon/qy.jpg",
 			sizes: "32x32",
 		},
 	],
@@ -50,7 +50,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
 	avatar: "",
 	//avatar: "assets/images/qysn.jpg", // // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Dpeng",
+	name: "dpeng",
 	bio: "Passion is all you need",
 	links: [
 		// {
