@@ -151,6 +151,15 @@
     /* line-height: 1.7;   增加行高改善可读性 */
 /* } */
 
+html {
+    font-size: 18px;
+}
+
+.custom-md {
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
 @font-face {
     font-family: "LXGWWenKai";
     src: url('/fonts/LXGWWenKai-Light.ttf') format('truetype');
