@@ -156,8 +156,8 @@ html {
 }
 
 .custom-md {
-    font-size: 1.1rem;
-    line-height: 1.5;
+    font-size: 1.1rem !important;
+    line-height: 1.5 !important;
 }
 
 @font-face {
